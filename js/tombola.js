@@ -7,8 +7,10 @@ function stampaTabellone(){
             numero=j+(i*10);
             if(numeri.includes(numero)){
                 document.write("<div id='occupato' >"+numero+"</div>");
+            }else{
+                document.write("<div id='libero' >"+numero+"</div>");
             }
-            document.write("<div id='libero' >"+numero+"</div>");
+            
         }
         //document.write("<br>");
     }
