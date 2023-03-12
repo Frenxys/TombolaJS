@@ -20,6 +20,6 @@ function pescaNumero(){
         console.log(n);
         tabella.innerHTML="";
         stampaTabellone();
-    }
+    }else{pescaNumero()}
 }
 stampaTabellone();
