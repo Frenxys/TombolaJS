@@ -1,0 +1,18 @@
+#occupato{
+    background-color: rgb(218, 81, 81);
+}
+#libero{
+    background-color: lightgreen;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
