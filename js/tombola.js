@@ -22,4 +22,17 @@ function pescaNumero(){
         stampaTabellone();
     }else{pescaNumero()}
 }
+function reset(){
+    numeri=[];
+    tabella.innerHTML="";
+    stampaTabellone();
+}
+function rossi(){
+    for(let i=1; i<=90; i++){
+        numeri.push(i);
+    }
+    tabella.innerHTML="";
+    stampaTabellone();
+}
 stampaTabellone();
+
